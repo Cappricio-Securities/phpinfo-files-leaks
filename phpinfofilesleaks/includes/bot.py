@@ -15,7 +15,7 @@ from utils import configure
 def sendmessage(vul):
 
     data = {"Tname": "phpinfo-files-leaks", "chatid": configure.get_chatid(), "data": vul,
-            "Blog": const.Data.blog, "bugname": const.Data.bugname, "Priority": "Critical"}
+            "Blog": const.Data.blog, "bugname": const.Data.bugname, "Priority": "Low"}
 
     headers = {
         "Content-Type": "application/json",
